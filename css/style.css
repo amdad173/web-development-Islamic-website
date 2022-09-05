@@ -1,0 +1,112 @@
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Montserrat;
+  font-weight: bold;
+}
+a{
+  font-size: 1.5rem;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+
+}
+.top_text{
+  color:#42855B;
+}
+
+/* big heading */
+.big_heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* top-section */
+
+.top_container{
+  background-color: #7FB77E;
+  color: white;
+}
+.container-fluid{
+  padding: 7% 10% 9%;
+}
+.top_container .container-fluid{
+  text-align: left;
+}
+/* navbar */
+.navbar{
+  padding: 0 0 4.3rem 0;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: Montserrat-light;
+  font-size: 1.3rem;
+}
+
+.top_image{
+  width: 20%;
+  position: absolute;
+  right: 15%;
+}
+
+@media (max-width: 990px) {
+  .top_image{
+    display: none;
+  }
+}
+
+/* Middle-section */
+#middle_container{
+  background: #256D85;
+  color: white;
+  padding: 7% 10%;
+}
+.course_heading{
+  line-height: 2rem;
+  padding-bottom: 3%;
+}
+.course{
+  padding: 2% 3%;
+}
+
+.course_image{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+/* bottom section*/
+
+#bottom-container{
+  background-color: #3FA796;
+  color: white;
+  padding: 5% 25%;
+}
+.form_item{
+  padding: 2% 5%;
+  border-radius: 5px;
+}
+
+/* footer */
+.footer{
+  padding: 3% 1% 1%;
+  background-color: black;
+  color: white;
+}
+.footer p{
+  margin: 0;
+  padding-top: 1%;
+  font-weight: lighter;
+  font-size: .8rem;
+}
